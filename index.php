@@ -1,7 +1,7 @@
 <?php
   $token = getenv('NOTIFY_TOKEN');
 
-  $content = array('message' => 'Hello !');
+  $content = array('message' => 'Hello BOT !');
 
   print_r($token);
   print_r(LineNotify::PushMessage($token,$content));
